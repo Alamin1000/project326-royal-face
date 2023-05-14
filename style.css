@@ -156,6 +156,8 @@ p:last-child{
 .hero-section__inner {
   padding: 130px 0 60px;
   position: relative;
+  z-index: 1;
+  display: flex;
 }
 
 .hero-image {
@@ -163,6 +165,7 @@ p:last-child{
 	bottom: 0;
 	right: -258px;
 	width: 964px;
+  z-index: -1;
 }
 
 .hero__content {
@@ -178,10 +181,10 @@ p:last-child{
 
 }
 .hero__content .h1 {
-  font-size: 38px;
-  margin: 0 0 48px;
-  letter-spacing: -3px;
-  line-height: 1;
+	font-size: 38.7px;
+	margin: 0 0 48px;
+	letter-spacing: -3px;
+	line-height: 1;
 }
 .hero__content h4 {
   font-size: 20px;
@@ -219,12 +222,13 @@ p:last-child{
 .input-x-submit {
   text-align: center;
   background: linear-gradient(268.84deg, #EBCB90 49%, #C9A56F 104.57%);
-  padding: 12px 15px;
+  padding: 13px 15px 11px;
   cursor: pointer;
   position: relative;
   z-index: 1;
   width: initial;
   border: none;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 .input-x-submit:hover {
   border-color: transparent;
@@ -262,6 +266,7 @@ p:last-child{
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
 .dream-image-character {
   position: absolute;
@@ -356,7 +361,7 @@ p:last-child{
 
 /* ---footer-section--- */
 .footer-section {
-  padding: 135px;
+  padding: 135px 0;
 }
 .footer-section__inner {
   display: flex;
