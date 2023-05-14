@@ -213,6 +213,9 @@ p:last-child{
   background: rgba(217, 217, 217, 0.2);
   border: 1px solid transparent;
 }
+.input-x::placeholder {
+  color: #fff;
+}
 /* ---hero-section---end */
 
 
