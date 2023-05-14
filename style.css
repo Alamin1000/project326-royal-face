@@ -105,8 +105,6 @@ p:last-child{
 
 
 
-
-
 /* --preloader-- */
 #preloader {
   position: fixed;
@@ -148,3 +146,196 @@ p:last-child{
   }
 }
 /* --preloader-end-- */
+
+
+
+/* ---hero-section--- */
+.hero-section {
+
+}
+.hero-section__inner {
+  padding: 130px 0 60px;
+  position: relative;
+}
+
+.hero-image {
+	position: absolute;
+	bottom: 0;
+	right: -258px;
+	width: 964px;
+}
+
+.hero__content {
+  width: 58%;
+}
+.hero__logo {
+	width: 193px;
+  margin: 0 0 20px;
+	margin-left: -15px;
+	display: block;
+}
+.hero__logo img {
+
+}
+.hero__content .h1 {
+  font-size: 38px;
+  margin: 0 0 48px;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+.hero__content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--sora);
+}
+.hero-form {
+  margin-top: 45px;
+  max-width: 100%;
+  width: 590px;
+}
+.hero-form__main {
+  --bs-gutter-x: 17px;
+  --bs-gutter-y: var(--bs-gutter-x)
+}
+.single-input-x {
+  width: 100%;
+}
+.input-x-outer {
+  width: 100%;
+}
+.input-x {
+  padding: 16px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight: 700;
+  width: 100%;
+  color: #fff;
+  background: rgba(217, 217, 217, 0.2);
+  border: 1px solid transparent;
+}
+/* ---hero-section---end */
+
+
+
+/* ---dream-section--- */
+.dream-section {
+  padding: 100px 0 105px;
+  background: #000000;
+  position: relative;
+  z-index: 1;
+}
+.dream-section .left-shape {
+  width: 273px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.dream-image-character {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+
+.dream-section__content {
+  width: 60%;
+}
+.dream-section__content h2 {
+  font-size: 48px;
+  margin: 0 0 58px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+.dream-section__content h4 {
+  font-size: 22px;
+  margin: 0 0 70px;
+  font-weight: 700;
+  font-family: var(--sora);
+  line-height: 1.19;
+}
+.dream-section__content h4 .icn {
+  float: left;
+  margin-right: 10px;
+}
+/* ---dream-section---end */
+
+
+/* ---commit-section--- */
+.commit-section {
+  padding: 95px 0 70px;
+  background: #000;
+}
+.commit-section__inner {
+
+}
+.commit-section__title {
+  text-align: center;
+  margin: 0 0 45px;
+}
+.commit-section__title h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+.commit-section__sub-title {
+  margin: 0 0 50px;
+  text-align: center;
+}
+.commit-section__sub-title p {
+  font-size: 22px;
+  line-height: 2.35;
+  font-weight: 800;
+}
+.commit-section__sub-title .image {
+
+}
+
+.commit-map-row {
+  display: flex;
+}
+.commit-map {
+  margin-right: -42px;
+}
+.commit-map .map {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+.commit-map-row .image {
+  background: linear-gradient(180deg, #EBCB90 0%, #C9A56F 100%);
+  border-radius: 20px;
+}
+.commit-map-row .image .img {
+  margin-top: -58px;
+}
+.commit-bottom-buttons {
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
+}
+/* ---commit-section---end */
+
+
+
+/* ---footer-section--- */
+.footer-section {
+  padding: 135px;
+}
+.footer-section__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-section__inner .link {
+  font-size: 18.22px;
+  font-family: var(--aboreto);
+  transition: 0.3s;
+}
+.footer-section__inner .link:hover {
+  color: #000;
+}
+/* ---footer-section--- */
